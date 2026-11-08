@@ -1,0 +1,51 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  font-family: Arial, sans-serif;
+  font-synthesis: none;
+  color-scheme: light;
+}
+
+:root.dark {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #fffaf7;
+  color: #0f172a;
+}
+
+:root.dark body {
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+/* for Cards  */
+
+.workflow-card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.workflow-card:hover {
+  transform: translateY(-16px) scale(1.05);
+  border-color: #C65D32;
+  box-shadow: 0 18px 35px rgba(198, 93, 50, 0.2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .workflow-card {
+    transition: none;
+  }
+
+  .workflow-card:hover {
+    transform: none;
+  }
+}
