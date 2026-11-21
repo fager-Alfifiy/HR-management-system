@@ -1,8 +1,8 @@
-<!-- 
+
 <script lang="ts">
   import { onMount } from 'svelte';
-  import { Search, RefreshCw, UsersRound } from '@lucide/svelte';
-  import EmployeeStats from '#lib/components/employees/EmployeeStats.svelte';
+  import { Plus, Search, UsersRound } from '@lucide/svelte';
+  import EmployeeForm from '#lib/components/employees/EmployeeForm.svelte';
   import EmployeeTable from '#lib/components/employees/EmployeeTable.svelte';
 
   type Employee = {
@@ -10,44 +10,26 @@
     first_name: string;
     last_name: string;
     email: string;
-    department_id?: string | number;
-    departmentId?: string | number;
-    job_title?: string;
-    status?: string;
   };
 
-  type Department = {
-    id: string | number;
-    name: string;
-  };
+  type EmployeeInput = Omit<Employee, 'id'>;
+
+  const API = 'http://localhost:3001/employees';
 
   let employees = $state<Employee[]>([]);
-  let departments = $state<Department[]>([]);
   let search = $state('');
-  let selectedDepartment = $state('');
+  let editing = $state<Employee | null>(null);
+  let showForm = $state(false);
+  let saving = $state(false);
   let loading = $state(true);
   let error = $state('');
 
-  const API = 'http://localhost:3001';
-
-  let filteredEmployees = $derived(
-    employees.filter((employee) => {
-      const fullName =
-        `${employee.first_name} ${employee.last_name}`.toLowerCase();
-
-      const matchesSearch =
-        fullName.includes(search.toLowerCase()) ||
-        employee.email.toLowerCase().includes(search.toLowerCase());
-
-      const departmentId =
-        employee.departmentId ?? employee.department_id;
-
-      const matchesDepartment =
-        !selectedDepartment ||
-        String(departmentId ?? '') === selectedDepartment;
-
-      return matchesSearch && matchesDepartment;
-    })
+  let filtered = $derived(
+    employees.filter(e =>
+      `${e.first_name} ${e.last_name} ${e.email}`
+        .toLowerCase()
+        .includes(search.toLowerCase())
+    )
   );
 
   async function loadEmployees() {
@@ -55,21 +37,41 @@
     error = '';
 
     try {
-      const [employeesResponse, departmentsResponse] = await Promise.all([
-        fetch(`${API}/employees`),
-        fetch(`${API}/departments`)
-      ]);
+      const response = await fetch(API);
+      if (!response.ok) throw new Error();
 
-      if (!employeesResponse.ok || !departmentsResponse.ok) {
-        throw new Error('Could not load employee data.');
-      }
-
-      employees = await employeesResponse.json();
-      departments = await departmentsResponse.json();
-    } catch (err) {
-      error = err instanceof Error ? err.message : 'Something went wrong.';
+      employees = await response.json();
+    } catch {
+      error = 'Unable to load employees.';
     } finally {
       loading = false;
+    }
+  }
+
+  async function saveEmployee(data: EmployeeInput) {
+    saving = true;
+    error = '';
+
+    try {
+      const url = editing
+        ? `${API}/${encodeURIComponent(String(editing.id))}`
+        : API;
+
+      const response = await fetch(url, {
+        method: editing ? 'PATCH' : 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+
+      if (!response.ok) throw new Error();
+
+      showForm = false;
+      editing = null;
+      await loadEmployees();
+    } catch {
+      error = 'Unable to save employee.';
+    } finally {
+      saving = false;
     }
   }
 
@@ -79,89 +81,74 @@
 </script>
 
 <svelte:head>
-  <title>Employee Management | HR Connect</title>
+  <title>Employees | HR Connect</title>
 </svelte:head>
 
-<div class="min-h-screen bg-[#FFF8F3] px-5 py-10 text-slate-900 dark:bg-slate-900 dark:text-white">
-  <div class="mx-auto max-w-7xl space-y-8">
+<main class="min-h-screen bg-[#FFF8F3] p-6 dark:bg-slate-900">
+  <div class="mx-auto max-w-6xl space-y-6">
 
-    <header>
-      <p class="text-sm font-semibold text-[#C65D32]">
-        HR MANAGEMENT
-      </p>
-      <h1 class="mt-2 flex items-center gap-3 text-3xl font-bold">
-        <UsersRound class="text-[#C65D32]" size={30} />
-        Employee Management
-      </h1>
-      <p class="mt-3 text-slate-500 dark:text-slate-300">
-        View and manage employee records in one place.
-      </p>
+    <header class="flex flex-wrap items-center justify-between gap-4">
+      <div>
+        <h1 class="flex items-center gap-3 text-3xl font-bold dark:text-white">
+          <UsersRound class="text-[#C65D32]" />
+          Employee Management
+        </h1>
+        <p class="mt-2 text-slate-500 dark:text-slate-300">
+          Total Employees: {employees.length}
+        </p>
+      </div>
+
+      <button
+        type="button"
+        onclick={() => {
+          editing = null;
+          showForm = true;
+        }}
+        class="flex items-center gap-2 rounded-xl bg-[#C65D32] px-5 py-3 text-white"
+      >
+        <Plus size={19} />
+        Add Employee
+      </button>
     </header>
 
-    <EmployeeStats {employees} {departments} />
+    {#if error}
+      <p role="alert" class="rounded-xl bg-red-50 p-4 text-red-700">
+        {error}
+      </p>
+    {/if}
 
-    <section class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-700 dark:bg-slate-800">
+    {#if showForm}
+      {#key editing?.id ?? 'new'}
+        <EmployeeForm
+          employee={editing}
+          {saving}
+          onSave={saveEmployee}
+          onCancel={() => (showForm = false)}
+        />
+      {/key}
+    {/if}
 
-      <div class="mb-6 flex flex-wrap items-center justify-between gap-4">
-        <div>
-          <h2 class="text-xl font-bold">Employee Directory</h2>
-          <p class="mt-1 text-sm text-slate-500 dark:text-slate-300">
-            {filteredEmployees.length} employees found
-          </p>
-        </div>
+    <div class="relative">
+      <Search size={19} class="absolute left-4 top-3 text-slate-400" />
+      <input
+        bind:value={search}
+        placeholder="Search employees..."
+        aria-label="Search employees"
+        class="w-full rounded-xl border-slate-200 py-3 pl-12 dark:bg-slate-800 dark:text-white"
+      />
+    </div>
 
-        <button
-          type="button"
-          onclick={loadEmployees}
-          disabled={loading}
-          class="flex items-center gap-2 rounded-xl border border-slate-200 px-4 py-2.5 text-sm font-medium hover:bg-orange-50 disabled:opacity-50 dark:border-slate-600 dark:hover:bg-slate-700"
-        >
-          <RefreshCw size={17} class={loading ? 'animate-spin' : ''} />
-          Refresh
-        </button>
-      </div>
+    {#if loading}
+      <p class="dark:text-white">Loading employees...</p>
+    {:else}
+      <EmployeeTable
+        employees={filtered}
+        onEdit={(employee) => {
+          editing = employee;
+          showForm = true;
+        }}
+      />
+    {/if}
 
-      <div class="mb-6 flex flex-wrap gap-3">
-        <div class="relative min-w-[220px] flex-1">
-          <Search
-            size={18}
-            class="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400"
-          />
-
-          <input
-            bind:value={search}
-            placeholder="Search by name or email..."
-            aria-label="Search employees"
-            class="w-full rounded-xl border-slate-200 pl-11 text-sm dark:border-slate-600 dark:bg-slate-700 dark:text-white"
-          />
-        </div>
-
-        <select
-          bind:value={selectedDepartment}
-          aria-label="Filter by department"
-          class="rounded-xl border-slate-200 text-sm dark:border-slate-600 dark:bg-slate-700 dark:text-white"
-        >
-          <option value="">All Departments</option>
-          {#each departments as department (department.id)}
-            <option value={String(department.id)}>
-              {department.name}
-            </option>
-          {/each}
-        </select>
-      </div>
-
-      {#if error}
-        <p role="alert" class="rounded-xl bg-red-50 p-4 text-sm text-red-700">
-          {error} Please check JSON Server on port 3001.
-        </p>
-      {:else if loading}
-        <p class="py-12 text-center text-slate-500">
-          Loading employees...
-        </p>
-      {:else}
-        <EmployeeTable employees={filteredEmployees} {departments} />
-      {/if}
-    </section>
   </div>
-</div>
- -->
+</main>

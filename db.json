@@ -1433,6 +1433,12 @@
       "hireDate": "2023-01-01",
       "employmentStatus": "Active",
       "managerId": "4"
+    },
+    {
+      "first_name": "fager",
+      "last_name": "alfaifi",
+      "email": "fagooooor916@gmail.com",
+      "id": "HHC2tJDXJ7s"
     }
   ],
   "users": [
@@ -4759,7 +4765,7 @@
       "date": "2026-10-26",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -4840,7 +4846,7 @@
       "date": "2026-10-08",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -4894,7 +4900,7 @@
       "date": "2026-10-18",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -4912,7 +4918,7 @@
       "date": "2026-10-20",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -4984,7 +4990,7 @@
       "date": "2026-10-01",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -5065,7 +5071,7 @@
       "date": "2026-10-14",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -5092,7 +5098,7 @@
       "date": "2026-10-19",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -5236,7 +5242,7 @@
       "date": "2026-10-12",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -5344,7 +5350,7 @@
       "date": "2026-10-28",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -5398,7 +5404,7 @@
       "date": "2026-10-07",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -5479,7 +5485,7 @@
       "date": "2026-10-20",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -5542,7 +5548,7 @@
       "date": "2026-10-29",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -5641,7 +5647,7 @@
       "date": "2026-10-15",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -5704,7 +5710,7 @@
       "date": "2026-10-26",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -5776,7 +5782,7 @@
       "date": "2026-10-07",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -5785,7 +5791,7 @@
       "date": "2026-10-08",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -5857,7 +5863,7 @@
       "date": "2026-10-20",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -5866,7 +5872,7 @@
       "date": "2026-10-21",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -5875,7 +5881,7 @@
       "date": "2026-10-22",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -5983,7 +5989,7 @@
       "date": "2026-10-11",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -6145,7 +6151,7 @@
       "date": "2026-10-06",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -6199,7 +6205,7 @@
       "date": "2026-10-14",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -6262,7 +6268,7 @@
       "date": "2026-10-25",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -6316,7 +6322,7 @@
       "date": "2026-10-04",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -6334,7 +6340,7 @@
       "date": "2026-10-06",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -6424,7 +6430,7 @@
       "date": "2026-10-20",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -6451,7 +6457,7 @@
       "date": "2026-10-25",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -6460,7 +6466,7 @@
       "date": "2026-10-26",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -6469,7 +6475,7 @@
       "date": "2026-10-27",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -6487,7 +6493,7 @@
       "date": "2026-10-29",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -6532,7 +6538,7 @@
       "date": "2026-10-07",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -6604,7 +6610,7 @@
       "date": "2026-10-19",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -6613,7 +6619,7 @@
       "date": "2026-10-20",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -6784,7 +6790,7 @@
       "date": "2026-10-18",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -6910,7 +6916,7 @@
       "date": "2026-10-07",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -6955,7 +6961,7 @@
       "date": "2026-10-14",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -6973,7 +6979,7 @@
       "date": "2026-10-18",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -7009,7 +7015,7 @@
       "date": "2026-10-22",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -7036,7 +7042,7 @@
       "date": "2026-10-27",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -7081,7 +7087,7 @@
       "date": "2026-10-05",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -7252,7 +7258,7 @@
       "date": "2026-10-01",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -7279,7 +7285,7 @@
       "date": "2026-10-06",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -7558,7 +7564,7 @@
       "date": "2026-10-20",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -7684,7 +7690,7 @@
       "date": "2026-10-11",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -7702,7 +7708,7 @@
       "date": "2026-10-13",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -7729,7 +7735,7 @@
       "date": "2026-10-18",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -7774,7 +7780,7 @@
       "date": "2026-10-25",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -7819,7 +7825,7 @@
       "date": "2026-10-01",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -7837,7 +7843,7 @@
       "date": "2026-10-05",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -7873,7 +7879,7 @@
       "date": "2026-10-11",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -7882,7 +7888,7 @@
       "date": "2026-10-12",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -7909,7 +7915,7 @@
       "date": "2026-10-15",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -7954,7 +7960,7 @@
       "date": "2026-10-22",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -8026,7 +8032,7 @@
       "date": "2026-10-05",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -8161,7 +8167,7 @@
       "date": "2026-10-26",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -8179,7 +8185,7 @@
       "date": "2026-10-28",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -8188,7 +8194,7 @@
       "date": "2026-10-29",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -8215,7 +8221,7 @@
       "date": "2026-10-05",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -8260,7 +8266,7 @@
       "date": "2026-10-12",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -8413,7 +8419,7 @@
       "date": "2026-10-06",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -8512,7 +8518,7 @@
       "date": "2026-10-21",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -8548,7 +8554,7 @@
       "date": "2026-10-27",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -8638,7 +8644,7 @@
       "date": "2026-10-12",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -8665,7 +8671,7 @@
       "date": "2026-10-15",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -8737,7 +8743,7 @@
       "date": "2026-10-27",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -8764,7 +8770,7 @@
       "date": "2026-10-01",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -8818,7 +8824,7 @@
       "date": "2026-10-11",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -8827,7 +8833,7 @@
       "date": "2026-10-12",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -8836,7 +8842,7 @@
       "date": "2026-10-13",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -8863,7 +8869,7 @@
       "date": "2026-10-18",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -8899,7 +8905,7 @@
       "date": "2026-10-22",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -8926,7 +8932,7 @@
       "date": "2026-10-27",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -8953,7 +8959,7 @@
       "date": "2026-10-01",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -8998,7 +9004,7 @@
       "date": "2026-10-08",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -9016,7 +9022,7 @@
       "date": "2026-10-12",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -9097,7 +9103,7 @@
       "date": "2026-10-25",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -9160,7 +9166,7 @@
       "date": "2026-10-05",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -9340,7 +9346,7 @@
       "date": "2026-10-04",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -9394,7 +9400,7 @@
       "date": "2026-10-12",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -9511,7 +9517,7 @@
       "date": "2026-10-29",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -9583,7 +9589,7 @@
       "date": "2026-10-12",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -9655,7 +9661,7 @@
       "date": "2026-10-22",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -9673,7 +9679,7 @@
       "date": "2026-10-26",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -9781,7 +9787,7 @@
       "date": "2026-10-13",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -9943,7 +9949,7 @@
       "date": "2026-10-08",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -10015,7 +10021,7 @@
       "date": "2026-10-20",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -10033,7 +10039,7 @@
       "date": "2026-10-22",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -10132,7 +10138,7 @@
       "date": "2026-10-08",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -10177,7 +10183,7 @@
       "date": "2026-10-15",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -10204,7 +10210,7 @@
       "date": "2026-10-20",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -10267,7 +10273,7 @@
       "date": "2026-10-29",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -10285,7 +10291,7 @@
       "date": "2026-10-04",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -10330,7 +10336,7 @@
       "date": "2026-10-11",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -10348,7 +10354,7 @@
       "date": "2026-10-13",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -10375,7 +10381,7 @@
       "date": "2026-10-18",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -10393,7 +10399,7 @@
       "date": "2026-10-20",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -10501,7 +10507,7 @@
       "date": "2026-10-07",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -10528,7 +10534,7 @@
       "date": "2026-10-12",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -10537,7 +10543,7 @@
       "date": "2026-10-13",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -10600,7 +10606,7 @@
       "date": "2026-10-22",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -10681,7 +10687,7 @@
       "date": "2026-10-06",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -10753,7 +10759,7 @@
       "date": "2026-10-18",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -10879,7 +10885,7 @@
       "date": "2026-10-07",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -10969,7 +10975,7 @@
       "date": "2026-10-21",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -11032,7 +11038,7 @@
       "date": "2026-10-01",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -11086,7 +11092,7 @@
       "date": "2026-10-11",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -11131,7 +11137,7 @@
       "date": "2026-10-18",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -11221,7 +11227,7 @@
       "date": "2026-10-01",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -11248,7 +11254,7 @@
       "date": "2026-10-06",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -11284,7 +11290,7 @@
       "date": "2026-10-12",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -11419,7 +11425,7 @@
       "date": "2026-10-04",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -11428,7 +11434,7 @@
       "date": "2026-10-05",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -11464,7 +11470,7 @@
       "date": "2026-10-11",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -11545,7 +11551,7 @@
       "date": "2026-10-22",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -11599,7 +11605,7 @@
       "date": "2026-10-01",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -11644,7 +11650,7 @@
       "date": "2026-10-08",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -11662,7 +11668,7 @@
       "date": "2026-10-12",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -11671,7 +11677,7 @@
       "date": "2026-10-13",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -11743,7 +11749,7 @@
       "date": "2026-10-25",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -11761,7 +11767,7 @@
       "date": "2026-10-27",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -11824,7 +11830,7 @@
       "date": "2026-10-07",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -11860,7 +11866,7 @@
       "date": "2026-10-13",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -11887,7 +11893,7 @@
       "date": "2026-10-18",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -11914,7 +11920,7 @@
       "date": "2026-10-21",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -11950,7 +11956,7 @@
       "date": "2026-10-27",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -11959,7 +11965,7 @@
       "date": "2026-10-28",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -11968,7 +11974,7 @@
       "date": "2026-10-29",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -12040,7 +12046,7 @@
       "date": "2026-10-12",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -12049,7 +12055,7 @@
       "date": "2026-10-13",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -12184,7 +12190,7 @@
       "date": "2026-10-05",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -12256,7 +12262,7 @@
       "date": "2026-10-15",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -12364,7 +12370,7 @@
       "date": "2026-10-04",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -12391,7 +12397,7 @@
       "date": "2026-10-07",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -12409,7 +12415,7 @@
       "date": "2026-10-11",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -12463,7 +12469,7 @@
       "date": "2026-10-19",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -12472,7 +12478,7 @@
       "date": "2026-10-20",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -12526,7 +12532,7 @@
       "date": "2026-10-28",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -12886,7 +12892,7 @@
       "date": "2026-10-26",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -13012,7 +13018,7 @@
       "date": "2026-10-15",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -13021,7 +13027,7 @@
       "date": "2026-10-18",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -13057,7 +13063,7 @@
       "date": "2026-10-22",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -13102,7 +13108,7 @@
       "date": "2026-10-29",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -13147,7 +13153,7 @@
       "date": "2026-10-07",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -13264,7 +13270,7 @@
       "date": "2026-10-26",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -13318,7 +13324,7 @@
       "date": "2026-10-05",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -13345,7 +13351,7 @@
       "date": "2026-10-08",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -13354,7 +13360,7 @@
       "date": "2026-10-11",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -13426,7 +13432,7 @@
       "date": "2026-10-21",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -13579,7 +13585,7 @@
       "date": "2026-10-15",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -13705,7 +13711,7 @@
       "date": "2026-10-06",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -13759,7 +13765,7 @@
       "date": "2026-10-14",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -13786,7 +13792,7 @@
       "date": "2026-10-19",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -13939,7 +13945,7 @@
       "date": "2026-10-13",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -14011,7 +14017,7 @@
       "date": "2026-10-25",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -14038,7 +14044,7 @@
       "date": "2026-10-28",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -14047,7 +14053,7 @@
       "date": "2026-10-29",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -14191,7 +14197,7 @@
       "date": "2026-10-22",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -14218,7 +14224,7 @@
       "date": "2026-10-27",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -14227,7 +14233,7 @@
       "date": "2026-10-28",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -14317,7 +14323,7 @@
       "date": "2026-10-13",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -14389,7 +14395,7 @@
       "date": "2026-10-25",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -14515,7 +14521,7 @@
       "date": "2026-10-14",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -14596,7 +14602,7 @@
       "date": "2026-10-27",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -14650,7 +14656,7 @@
       "date": "2026-10-06",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -14677,7 +14683,7 @@
       "date": "2026-10-11",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -14686,7 +14692,7 @@
       "date": "2026-10-12",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -14731,7 +14737,7 @@
       "date": "2026-10-19",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -14848,7 +14854,7 @@
       "date": "2026-10-07",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -14866,7 +14872,7 @@
       "date": "2026-10-11",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -14893,7 +14899,7 @@
       "date": "2026-10-14",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -14929,7 +14935,7 @@
       "date": "2026-10-20",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -14974,7 +14980,7 @@
       "date": "2026-10-27",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -15055,7 +15061,7 @@
       "date": "2026-10-11",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -15109,7 +15115,7 @@
       "date": "2026-10-19",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -15172,7 +15178,7 @@
       "date": "2026-10-28",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -15190,7 +15196,7 @@
       "date": "2026-10-01",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -15361,7 +15367,7 @@
       "date": "2026-10-28",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -15370,7 +15376,7 @@
       "date": "2026-10-29",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -15415,7 +15421,7 @@
       "date": "2026-10-07",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -15424,7 +15430,7 @@
       "date": "2026-10-08",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -15577,7 +15583,7 @@
       "date": "2026-10-04",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -15694,7 +15700,7 @@
       "date": "2026-10-21",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -15784,7 +15790,7 @@
       "date": "2026-10-06",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -15820,7 +15826,7 @@
       "date": "2026-10-12",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -15829,7 +15835,7 @@
       "date": "2026-10-13",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -15883,7 +15889,7 @@
       "date": "2026-10-21",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -15892,7 +15898,7 @@
       "date": "2026-10-22",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -15901,7 +15907,7 @@
       "date": "2026-10-25",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -16036,7 +16042,7 @@
       "date": "2026-10-15",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -16081,7 +16087,7 @@
       "date": "2026-10-22",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -16180,7 +16186,7 @@
       "date": "2026-10-08",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -16216,7 +16222,7 @@
       "date": "2026-10-14",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -16225,7 +16231,7 @@
       "date": "2026-10-15",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -16378,7 +16384,7 @@
       "date": "2026-10-11",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -16423,7 +16429,7 @@
       "date": "2026-10-18",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -16450,7 +16456,7 @@
       "date": "2026-10-21",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -16459,7 +16465,7 @@
       "date": "2026-10-22",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -16468,7 +16474,7 @@
       "date": "2026-10-25",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -16486,7 +16492,7 @@
       "date": "2026-10-27",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -16540,7 +16546,7 @@
       "date": "2026-10-06",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -16648,7 +16654,7 @@
       "date": "2026-10-22",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -16684,7 +16690,7 @@
       "date": "2026-10-28",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -16774,7 +16780,7 @@
       "date": "2026-10-13",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -16810,7 +16816,7 @@
       "date": "2026-10-19",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -16873,7 +16879,7 @@
       "date": "2026-10-28",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -16882,7 +16888,7 @@
       "date": "2026-10-29",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -16981,7 +16987,7 @@
       "date": "2026-10-15",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -17026,7 +17032,7 @@
       "date": "2026-10-22",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -17053,7 +17059,7 @@
       "date": "2026-10-27",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -17062,7 +17068,7 @@
       "date": "2026-10-28",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -17098,7 +17104,7 @@
       "date": "2026-10-05",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -17107,7 +17113,7 @@
       "date": "2026-10-06",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -17179,7 +17185,7 @@
       "date": "2026-10-18",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -17215,7 +17221,7 @@
       "date": "2026-10-22",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -17278,7 +17284,7 @@
       "date": "2026-10-04",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -17287,7 +17293,7 @@
       "date": "2026-10-05",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -17296,7 +17302,7 @@
       "date": "2026-10-06",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -17314,7 +17320,7 @@
       "date": "2026-10-08",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -17386,7 +17392,7 @@
       "date": "2026-10-20",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -17710,7 +17716,7 @@
       "date": "2026-10-12",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -17791,7 +17797,7 @@
       "date": "2026-10-25",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -17863,7 +17869,7 @@
       "date": "2026-10-06",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -17872,7 +17878,7 @@
       "date": "2026-10-07",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -17881,7 +17887,7 @@
       "date": "2026-10-08",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -17908,7 +17914,7 @@
       "date": "2026-10-13",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -18007,7 +18013,7 @@
       "date": "2026-10-28",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -18151,7 +18157,7 @@
       "date": "2026-10-21",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -18232,7 +18238,7 @@
       "date": "2026-10-05",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -18331,7 +18337,7 @@
       "date": "2026-10-20",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -18358,7 +18364,7 @@
       "date": "2026-10-25",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -18376,7 +18382,7 @@
       "date": "2026-10-27",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -18403,7 +18409,7 @@
       "date": "2026-10-01",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -18421,7 +18427,7 @@
       "date": "2026-10-05",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -18457,7 +18463,7 @@
       "date": "2026-10-11",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -18511,7 +18517,7 @@
       "date": "2026-10-19",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -18583,7 +18589,7 @@
       "date": "2026-10-29",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -18682,7 +18688,7 @@
       "date": "2026-10-15",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -18709,7 +18715,7 @@
       "date": "2026-10-20",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -18844,7 +18850,7 @@
       "date": "2026-10-12",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -18853,7 +18859,7 @@
       "date": "2026-10-13",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -18916,7 +18922,7 @@
       "date": "2026-10-22",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -18943,7 +18949,7 @@
       "date": "2026-10-27",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -19024,7 +19030,7 @@
       "date": "2026-10-11",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -19105,7 +19111,7 @@
       "date": "2026-10-22",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -19123,7 +19129,7 @@
       "date": "2026-10-26",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -19141,7 +19147,7 @@
       "date": "2026-10-28",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -19267,7 +19273,7 @@
       "date": "2026-10-19",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -19276,7 +19282,7 @@
       "date": "2026-10-20",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -19357,7 +19363,7 @@
       "date": "2026-10-04",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -19384,7 +19390,7 @@
       "date": "2026-10-07",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -19402,7 +19408,7 @@
       "date": "2026-10-11",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -19582,7 +19588,7 @@
       "date": "2026-10-08",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -19672,7 +19678,7 @@
       "date": "2026-10-22",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -19690,7 +19696,7 @@
       "date": "2026-10-26",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -19717,7 +19723,7 @@
       "date": "2026-10-29",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -19834,7 +19840,7 @@
       "date": "2026-10-19",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -19861,7 +19867,7 @@
       "date": "2026-10-22",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -19879,7 +19885,7 @@
       "date": "2026-10-26",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -19897,7 +19903,7 @@
       "date": "2026-10-28",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -19906,7 +19912,7 @@
       "date": "2026-10-29",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -19960,7 +19966,7 @@
       "date": "2026-10-08",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -20059,7 +20065,7 @@
       "date": "2026-10-25",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -20113,7 +20119,7 @@
       "date": "2026-10-04",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -20131,7 +20137,7 @@
       "date": "2026-10-06",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -20176,7 +20182,7 @@
       "date": "2026-10-13",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -20203,7 +20209,7 @@
       "date": "2026-10-18",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -20248,7 +20254,7 @@
       "date": "2026-10-25",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -20311,7 +20317,7 @@
       "date": "2026-10-05",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -20383,7 +20389,7 @@
       "date": "2026-10-15",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -20455,7 +20461,7 @@
       "date": "2026-10-27",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -20581,7 +20587,7 @@
       "date": "2026-10-18",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -20617,7 +20623,7 @@
       "date": "2026-10-22",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -20716,7 +20722,7 @@
       "date": "2026-10-08",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -20761,7 +20767,7 @@
       "date": "2026-10-15",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -20833,7 +20839,7 @@
       "date": "2026-10-27",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -21067,7 +21073,7 @@
       "date": "2026-10-05",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -21094,7 +21100,7 @@
       "date": "2026-10-08",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -21130,7 +21136,7 @@
       "date": "2026-10-14",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -21202,7 +21208,7 @@
       "date": "2026-10-26",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -21274,7 +21280,7 @@
       "date": "2026-10-07",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -21319,7 +21325,7 @@
       "date": "2026-10-14",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -21337,7 +21343,7 @@
       "date": "2026-10-18",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -21382,7 +21388,7 @@
       "date": "2026-10-25",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -21400,7 +21406,7 @@
       "date": "2026-10-27",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -21409,7 +21415,7 @@
       "date": "2026-10-28",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -21445,7 +21451,7 @@
       "date": "2026-10-05",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -21562,7 +21568,7 @@
       "date": "2026-10-22",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -21598,7 +21604,7 @@
       "date": "2026-10-28",
       "checkIn": "08:00",
       "checkOut": "17:00",
-      "workedHours": 9.0,
+      "workedHours": 9,
       "status": "Present"
     },
     {
@@ -24795,5 +24801,6 @@
       "entityId": "100",
       "createdAt": "2026-10-01T08:00:00"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

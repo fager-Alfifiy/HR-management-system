@@ -1,40 +1,42 @@
-<!-- <script lang="ts">
+
+<script lang="ts">
   import { onMount } from 'svelte';
-  import { UsersRound, Building2, CalendarDays, Clock3, Search } from '@lucide/svelte';
+  import { UsersRound, RefreshCw } from '@lucide/svelte';
+  import DashboardStats from '#lib/components/dashboard/DashboardStats.svelte';
+
   type Employee = {
     id: string | number;
     first_name: string;
     last_name: string;
     email: string;
   };
+
+  type LeaveRequest = { status?: string };
+
   let employees = $state<Employee[]>([]);
-  let departments = $state<any[]>([]);
-  let leaves = $state<any[]>([]);
-  let attendance = $state<any[]>([]);
-  let search = $state('');
+  let departments = $state<unknown[]>([]);
+  let leaves = $state<LeaveRequest[]>([]);
+  let attendance = $state<unknown[]>([]);
   let loading = $state(true);
   let error = $state('');
 
-  let filtered = $derived(
-    employees.filter(e =>
-      `${e.first_name} ${e.last_name} ${e.email}`
-        .toLowerCase().includes(search.toLowerCase())
-    ).slice(0, 6)
+  let pending = $derived(
+    leaves.filter(l => l.status?.toLowerCase() === 'pending').length
   );
 
-  let stats = $derived([
-    { label: 'Total Employees', value: employees.length, icon: UsersRound },
-    { label: 'Departments', value: departments.length, icon: Building2 },
-    { label: 'Pending Requests', value: leaves.filter(l => l.status?.toLowerCase() === 'pending').length, icon: CalendarDays },
-    { label: 'Attendance Records', value: attendance.length, icon: Clock3 }
-  ]);
+  async function loadDashboard() {
+    loading = true;
+    error = '';
 
-  onMount(async () => {
     try {
-      const names = ['employees', 'departments', 'leaveRequests', 'attendance'];
+      const endpoints = [
+        'employees', 'departments', 'leaveRequests', 'attendance'
+      ];
+
       const responses = await Promise.all(
-        names.map(n => fetch(`http://localhost:3001/${n}`))
+        endpoints.map(name => fetch(`http://localhost:3001/${name}`))
       );
+
       if (responses.some(r => !r.ok)) throw new Error();
 
       [employees, departments, leaves, attendance] =
@@ -44,6 +46,10 @@
     } finally {
       loading = false;
     }
+  }
+
+  onMount(() => {
+    void loadDashboard();
   });
 </script>
 
@@ -51,79 +57,89 @@
   <title>HR Dashboard | HR Connect</title>
 </svelte:head>
 
-<main class="min-h-screen bg-[#FFF8F3] p-6 text-slate-900 dark:bg-slate-900 dark:text-white">
+<main class="min-h-screen bg-[#FFF8F3] px-6 py-12 dark:bg-slate-900">
   <div class="mx-auto max-w-7xl">
 
-    <header class="mb-8 flex flex-wrap items-center justify-between gap-4">
+    <header class="mb-10 flex flex-wrap items-center justify-between gap-4">
       <div>
-        <h1 class="text-3xl font-bold">HR Dashboard</h1>
+        <p class="font-semibold text-[#C65D32]">HR WORKSPACE</p>
+        <h1 class="mt-2 text-3xl font-bold text-slate-900 dark:text-white">
+          HR Dashboard
+        </h1>
         <p class="mt-2 text-slate-500 dark:text-slate-300">
-          Employee information and HR activities
+          Manage and monitor HR activities.
         </p>
       </div>
-      <a href="/hr/employees" class="rounded-xl bg-[#C65D32] px-5 py-3 text-sm font-semibold text-white">
-        Manage Employees
-      </a>
+
+      <div class="flex gap-3">
+        <button
+          type="button"
+          onclick={loadDashboard}
+          disabled={loading}
+          class="rounded-xl border border-orange-200 p-3 text-[#C65D32] disabled:opacity-50"
+          aria-label="Refresh dashboard"
+        >
+          <RefreshCw size={20} />
+        </button>
+
+        <a href="/hr/employees"
+          class="flex items-center gap-2 rounded-xl bg-[#C65D32] px-5 py-3 font-semibold text-white">
+          <UsersRound size={19} />
+          Employees
+        </a>
+
+<a
+  href="/hr/leaves"
+  class="inline-flex items-center rounded-xl bg-[#C65D32] px-5 py-3 font-semibold text-white"
+>
+  Leave Management
+</a>
+
+      </div>
     </header>
 
     {#if loading}
-      <p>Loading dashboard...</p>
+      <p class="dark:text-white">Loading dashboard...</p>
     {:else if error}
-      <p role="alert" class="rounded-xl bg-red-50 p-4 text-red-600">{error}</p>
+      <p role="alert" class="rounded-xl bg-red-50 p-5 text-red-700">
+        {error}
+      </p>
     {:else}
+      <DashboardStats
+        employees={employees.length}
+        departments={departments.length}
+        {pending}
+        attendance={attendance.length}
+      />
 
-      <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-        {#each stats as stat}
-          <div class="rounded-2xl bg-white p-6 shadow-sm dark:bg-slate-800">
-            <stat.icon size={26} class="text-[#C65D32]" />
-            <p class="mt-4 text-sm text-slate-500 dark:text-slate-300">{stat.label}</p>
-            <h2 class="mt-2 text-3xl font-bold">{stat.value}</h2>
-          </div>
-        {/each}
-      </div>
-
-      <section class="mt-8 overflow-hidden rounded-2xl bg-white p-6 shadow-sm dark:bg-slate-800">
-        <div class="mb-6 flex flex-wrap items-center justify-between gap-4">
-          <h2 class="text-xl font-bold">Employee Directory</h2>
-          <a href="/hr/employees" class="font-semibold text-[#C65D32]">
-            View All
-          </a>
-        </div>
-
-        <div class="relative mb-6 max-w-md">
-          <Search size={18} class="absolute left-3 top-3 text-slate-400" />
-          <input
-            bind:value={search}
-            placeholder="Search employees..."
-            aria-label="Search employees"
-            class="w-full rounded-xl border border-slate-200 py-2.5 pl-10 text-sm dark:border-slate-600 dark:bg-slate-700 dark:text-white"
-          />
-        </div>
+      <section class="mt-8 rounded-2xl bg-white p-6 shadow-sm dark:bg-slate-800">
+        <h2 class="mb-5 text-xl font-bold text-slate-900 dark:text-white">
+          Recent Employees
+        </h2>
 
         <div class="overflow-x-auto">
-          <table class="w-full text-left text-sm">
-            <thead class="bg-slate-50 dark:bg-slate-700">
+          <table class="w-full text-left text-sm dark:text-white">
+            <thead class="border-b border-slate-200 dark:border-slate-700">
               <tr>
-                <th class="p-4">Employee</th>
-                <th class="p-4">Email</th>
-                <th class="p-4">ID</th>
+                <th class="p-3">Name</th>
+                <th class="p-3">Email</th>
+                <th class="p-3">ID</th>
               </tr>
             </thead>
+
             <tbody>
-              {#each filtered as e (e.id)}
+              {#each employees.slice(-5).reverse() as e (e.id)}
                 <tr class="border-b border-slate-100 dark:border-slate-700">
-                  <td class="p-4 font-semibold">{e.first_name} {e.last_name}</td>
-                  <td class="p-4">{e.email}</td>
-                  <td class="p-4">{e.id}</td>
+                  <td class="p-3">{e.first_name} {e.last_name}</td>
+                  <td class="p-3">{e.email}</td>
+                  <td class="p-3">{e.id}</td>
                 </tr>
               {/each}
             </tbody>
           </table>
-          {#if filtered.length === 0}
-            <p class="p-5 text-center text-slate-500">No employees found.</p>
-          {/if}
         </div>
       </section>
     {/if}
+
   </div>
-</main> -->
+</main>
