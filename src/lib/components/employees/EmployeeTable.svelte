@@ -15,7 +15,6 @@
     onEdit: (employee: Employee) => void;
   } = $props();
 </script>
-
 <div class="overflow-x-auto rounded-2xl bg-white shadow-sm dark:bg-slate-800">
   <table class="w-full text-left text-sm dark:text-white">
     <thead class="bg-orange-50 text-slate-700 dark:bg-slate-700 dark:text-white">

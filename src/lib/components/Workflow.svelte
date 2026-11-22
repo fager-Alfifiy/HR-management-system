@@ -6,7 +6,6 @@
     ClipboardCheck,
     Bell
   } from '@lucide/svelte';
-
   const steps = [
     {
       icon: LogIn,
@@ -30,7 +29,6 @@
     }
   ];
 </script>
-
 <section
   id="workflow"
   class="scroll-mt-24 bg-[#FFF8F3] px-6 py-24 dark:bg-slate-900"
@@ -40,15 +38,12 @@
     <p class="font-semibold text-[#C65D32]">
       SIMPLE & EFFICIENT
     </p>
-
     <h1 class="mt-3 text-4xl font-bold text-slate-900 dark:text-white">
       How HR Connect Works
     </h1>
-
     <p class="mx-auto mt-4 max-w-2xl text-slate-500 dark:text-slate-300">
       Four simple steps to access and manage your HR services.
     </p>
-
     <div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
       {#each steps as step, i}
         <div
@@ -57,22 +52,13 @@
         >
           <div class="flex items-center justify-between">
             <step.icon size={30} class="text-[#C65D32]" />
-
             <span class="text-2xl font-bold text-orange-200">
               {i + 1}
             </span>
           </div>
-
           <h2 class="mt-6 text-lg font-bold text-slate-900 dark:text-white">
             {step.title}
           </h2>
-
           <p class="mt-3 text-sm leading-7 text-slate-500 dark:text-slate-300">
             {step.desc}
-          </p>
-        </div>
-      {/each}
-    </div>
-
-  </div>
-</section>
+          </p>  </div> {/each}</div></div></section>

@@ -1,10 +1,7 @@
-
 <script lang="ts">
   import { BriefcaseBusiness, Menu, X, LogIn } from '@lucide/svelte';
   import ThemeToggle from '#lib/components/ThemeToggle.svelte';
   let menuOpen = $state(false);
-
-
 const links = [
   { name: 'Home', href: '/' },
   { name: 'Services', href: '/services' },
@@ -12,8 +9,6 @@ const links = [
   { name: 'About Us', href: '/about' },
   { name: 'Login', href: '/login' }
 ];
-
-
 </script>
 <nav class="sticky top-0 z-50 border-b border-slate-200 bg-white dark:border-slate-700 dark:bg-slate-900">
   <div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-4">
@@ -62,7 +57,6 @@ const links = [
           {link.name}
         </a>
       {/each}
-
       <a href="/login"
         onclick={() => (menuOpen = false)}
         class="mt-2 block rounded-lg bg-[#C65D32] px-3 py-3 text-center text-sm font-semibold text-white">

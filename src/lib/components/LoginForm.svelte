@@ -10,7 +10,7 @@
   function login() {
     error = '';
 
-    // Demo account only – not secure authentication
+    // iss Demo account 
     if (email === 'hr@demo.com' && password === 'HRdemo123') {
       goto('/hr/dashboard');
     } else {

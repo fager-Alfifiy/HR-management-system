@@ -1,16 +1,13 @@
-
 <script lang="ts">
   import {
     UsersRound, Building, CalendarDays, Clock3
   } from '@lucide/svelte';
-
   let {
     employees = 0,
     departments = 0,
     pending = 0,
     attendance = 0
   } = $props();
-
   let stats = $derived([
     { title: 'Total Employees', value: employees, icon: UsersRound },
     { title: 'Departments', value: departments, icon: Building },
@@ -18,7 +15,6 @@
     { title: 'Attendance Records', value: attendance, icon: Clock3 }
   ]);
 </script>
-
 <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
   {#each stats as stat}
     <div class="workflow-card rounded-2xl border border-orange-100 bg-white p-6 shadow-sm dark:border-slate-700 dark:bg-slate-800">

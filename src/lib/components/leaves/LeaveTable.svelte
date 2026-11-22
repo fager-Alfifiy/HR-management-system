@@ -50,7 +50,7 @@
                   onclick={() => onStatus(r.id, 'Approved')}
                   class="font-semibold text-green-600 disabled:opacity-50"
                 >
-                  Approve
+                  Ap
                 </button>
                 <button
                   type="button"
@@ -58,7 +58,7 @@
                   onclick={() => onStatus(r.id, 'Rejected')}
                   class="font-semibold text-red-600 disabled:opacity-50"
                 >
-                  Reject
+                  R
                 </button>
               </div>
             {:else}
@@ -72,7 +72,7 @@
 
   {#if requests.length === 0}
     <p class="p-6 text-center text-slate-500">
-      No leave requests found.
+      No leave requests found
     </p>
   {/if}
 </div>

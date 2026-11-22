@@ -1,0 +1,23 @@
+[33mcommit 8e0825769d35b49137a07009d328dbc95359a058[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: fager <fageralfifiy@outlook.com>
+Date:   Sat Nov 21 17:51:07 2026 +0300
+
+    Add HR dashboard, employee and leave management
+
+ db.json                                            | 587 [32m+++++++++++[m[31m----------[m
+ src/app.html                                       |  20 [32m+[m[31m-[m
+ src/lib/Navbar.svelte                              |  16 [32m+[m[31m-[m
+ src/lib/components/EmployeeTable.svelte            |  42 [31m--[m
+ src/lib/components/LoginForm.svelte                |  64 [32m+++[m
+ src/lib/components/Services.svelte                 |  84 [32m+++[m
+ src/lib/components/dashboard/DashboardStats.svelte |  34 [32m++[m
+ src/lib/components/employees/EmployeeForm.svelte   |  82 [32m+++[m
+ src/lib/components/employees/EmployeeTable.svelte  |  57 [32m++[m
+ src/lib/components/leaves/LeaveForm.svelte         | 114 [32m++++[m
+ src/lib/components/leaves/LeaveTable.svelte        |  78 [32m+++[m
+ src/routes/hr/dashboard/+page.svelte               | 154 [32m+++[m[31m---[m
+ src/routes/hr/employees/+page.svelte               | 237 [32m++++[m[31m-----[m
+ src/routes/hr/leaves/+page.svelte                  |  21 [32m+[m
+ src/routes/login/+page.svelte                      |  12 [32m+[m
+ src/routes/services/+page.svelte                   |  10 [32m+[m
+ 16 files changed, 1071 insertions(+), 541 deletions(-)

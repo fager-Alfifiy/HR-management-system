@@ -14,11 +14,9 @@
     {@render children()}
   </main>
 
-
   <footer class="border-t border-slate-200 bg-[#FFF8F3] px-6 py-6 text-center">
     <p class="text-sm text-slate-500">
       © 2026 HR Connect. All rights reserved.
     </p>
   </footer>
-
 </div>

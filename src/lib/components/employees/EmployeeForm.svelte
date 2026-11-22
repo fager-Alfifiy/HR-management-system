@@ -1,4 +1,3 @@
-
 <script lang="ts">
   type Employee = {
     id: string | number;
@@ -6,7 +5,6 @@
     last_name: string;
     email: string;
   };
-
   let {
     employee = null,
     saving = false,
@@ -51,7 +49,6 @@
       required
       class="rounded-xl dark:bg-slate-700 dark:text-white"
     />
-
     <input
       bind:value={email}
       type="email"
@@ -61,7 +58,6 @@
       class="rounded-xl sm:col-span-2 dark:bg-slate-700 dark:text-white"
     />
   </div>
-
   <div class="mt-6 flex gap-3">
     <button
       type="submit"
